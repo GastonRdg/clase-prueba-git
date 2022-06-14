@@ -58,6 +58,8 @@
     border-radius: 5px;
     margin: 5px;
     font-size: 25px;
+    animation-name: cambioColor;
+    animation-duration: 5s;
 }
 
 .header li:hover {
@@ -176,3 +178,17 @@
 }
 
 /*footer*/
+@keyframes cambioColor{
+    0%{
+        background-color: #e5dbd9;
+    }
+    25%{
+        background-color: burlywood;
+    }
+    50%{
+        background-color: darkgoldenrod;
+    }
+    100%{
+        background-color: #ff8952;
+    }
+}
